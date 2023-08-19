@@ -60,9 +60,12 @@ El diagrama de conexiones es el siguiente:
 ## Modelo del sistema
 
 El modelo del sistema fue obtenido mediante Matlab con la herramienta **SystemIdentification**,
-entregando la función de transferencia:
+entregando la función de transferencia:, con un 88% de coincidencia con la señal medida.
 
 ![General](img/funcion_transferencia.png)
 
 La prueba consistió en posicionar la bola a 5cm del sensor. Pasado 1 segundo, se dió un escalón de
 20° para medir cada 0.1s el comportamiento de la bola, hasta llegar a la tapa.
+
+La idea de la maqueta es que se puedan realizar otras identificaciones de sistema para llegar a una
+función de transferencia más representativa del sistema.
